@@ -54,7 +54,15 @@ init([]) ->
            {webmachine_mochiweb, start, [WebConfig]},
            permanent, 5000, worker, dynamic},
 
-    Processes = [Web],
+    BQLConn = {bifrost_bql_conn,
+               {bql_conn_sup, start_link, []},
+                permanent, infinity, supervisor, dynamic},
+
+    BQL = {bifrost_bql,
+           {bql_server, start_link, [Ip, Port + 1]},
+           permanent, 5000, worker, dynamic},
+
+    Processes = [Web, BQLConn, BQL],
     {ok, {{one_for_one, 10, 10}, Processes}}.
 
 

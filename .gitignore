@@ -17,3 +17,5 @@ deps
 .eunit
 ebin
 erl_crash.dump
+apps/bifrost/src/bql_parser.erl
+apps/bifrost/src/bql_lexer.erl
