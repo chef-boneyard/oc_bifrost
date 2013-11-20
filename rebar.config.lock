@@ -44,7 +44,7 @@
                                     "758d1cf4cc79483e1fbaf2ea59ed9e9f76b4a012"}},
        {sqerl,".*",
               {git,"git://github.com/opscode/sqerl.git",
-                   "d6d3916d7f4ee97e65b1c7aff363373a38563419"}},
+                   "3003c6e563fe05f6075af46d2649e048c74e1946"}},
        {stats_hero,".*",
                    {git,"git://github.com/opscode/stats_hero.git",
                         "0bd34aae8220021d5619a132d00e48623522ad10"}},
