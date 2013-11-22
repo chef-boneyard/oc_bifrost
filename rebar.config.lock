@@ -52,8 +52,9 @@
                    {git,"git://github.com/opscode/stats_hero.git",
                         "0bd34aae8220021d5619a132d00e48623522ad10"}},
        {webmachine,".*",
-                   {git,"git://github.com/basho/webmachine",
-                        "0fffe21beb1bec3f87510cfad389d844782d457e"}}]}.
+                   {git,"git://github.com/opscode/webmachine",
+                        "eb6633593be10977399fcf8abb036faef4c5fba2"}}]}.
+
 {eunit_opts,[verbose,{report,{eunit_surefire,[{dir,"."}]}}]}.
 {cover_enabled,true}.
 {plugins,[rebar_lock_deps_plugin]}.
