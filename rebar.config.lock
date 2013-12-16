@@ -53,7 +53,7 @@
                         "0bd34aae8220021d5619a132d00e48623522ad10"}},
        {webmachine,".*",
                    {git,"git://github.com/opscode/webmachine",
-                        "aa0d0f8e03e14e7fefc9e092c1c3535182c87ef6"}}]}.
+                        "7cd6ddf592a2e050544891d151944dd3017dc517"}}]}.
 
 {eunit_opts,[verbose,{report,{eunit_surefire,[{dir,"."}]}}]}.
 {cover_enabled,true}.
